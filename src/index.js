@@ -19,7 +19,7 @@ const CountdownTimer = {
     // способ 2 - const deadLine = new Date('December 25, 2020');
     // способ 3 - new Date(year, month, date, hours, minutes, seconds, ms);
 
-    const deadLine = new Date(2030, 0, 1, 0, 0, 0, 0);
+    const deadLine = new Date(2021, 4, 15, 0, 0, 0, 0);
     function showTimeCountdown() {
       const currentTime = Date.now();
       console.log('start -> deadLine', deadLine);
