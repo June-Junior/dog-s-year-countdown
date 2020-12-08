@@ -1,0 +1,79 @@
+  
+html {
+  
+  min-height: 100%;
+}
+
+body {
+  background: teal;
+  background-image: url(https://cdn.shopify.com/s/files/1/0253/3490/6933/articles/KK_How-To-Take-Care-of-Long-Haired-Dogs.gif?v=1570190180);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#timer-1 {
+  color: salmon;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: .6em;
+  letter-spacing: 5px;
+  margin-top: 40%;
+}
+
+.value {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 4em;
+}
+
+.counter-name {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin-top: 1em;
+  font-size: 5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: rgb(0, 173, 78);
+}
+
+
+.days, .hours, .minutes, .seconds, .centiseconds {
+  display: inline-block;
+  padding: 15px;
+  width: 60px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.days {
+  background: brown;
+}
+
+.hours {
+  background: rgb(72, 67, 116);
+  color: teal;
+}
+
+.minutes {
+  background: rgb(165, 184, 0);
+  color: blueviolet;
+}
+
+.seconds {
+  background: grey;
+  color: white;
+}
+
+.centiseconds {
+  background: rgb(88, 224, 88);
+  color: rgb(214, 97, 97);
+}
+.numbers {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 4em;
+}
+
+
+
